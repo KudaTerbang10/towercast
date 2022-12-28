@@ -35,6 +35,6 @@ window.Echo = new Echo({
 });
 
 window.Echo.channel("candaTawa").listen("MessageCreated", (event)=>{
-    console.log("Listening to Pusher");
+    console.log("Listening to Pusher"); //pesan
     console.log(event);
 });
